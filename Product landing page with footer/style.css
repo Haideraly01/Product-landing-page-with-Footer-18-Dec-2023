@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Jost&family=Nunito&family=Outfit:wght@400;500&family=Signika+Negative:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Amaranth', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    margin: 40px 30px 0px 30px;
+    justify-content: space-between;
+
+}
+.navbar h2{
+    margin: 10px 0px 0px 60px;
+    font-size: 40px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: right;
+}
+.navbar ul li{
+    margin-right: 60px;
+    padding: 8px 5px;
+    list-style: none;
+    font-size: 20px;
+}
+.navbar ul li a{
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.contant{
+    /* grid-template-rows: repeat(2,1fr); */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.left-side{
+    margin: 80px 0px 0px 50px;
+    font-size: 18px;
+    width: 90%;
+    /* padding:  20px 20px 0px 30px ; */
+}
+.left-side h1{
+    font-size: 60px;
+    margin: 5px 50px;
+}
+
+/* .contact h1::after{
+    content: "";
+    position: absolute;
+    color: rgb(23, 125,165);
+    height: 3px;
+    width: 150px;
+    top: 51%;
+    left: 15%;
+} */
+
+.left-side p{
+    padding:  0px 50px 0px 50px ;
+}
+
+.btn2{
+    width: 150px;
+    height: 45px;
+    margin: 43px 0 0px 80px 
+    
+}
+
+.right-side img{
+    width: 95%;
+    padding-left: 30px;
+}
+
+.HeadPhone{
+    position: absolute;
+    top: -10%;
+    left: 3%;
+    opacity: .1;
+    /* z-index: -1; */
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 221, 225);
+    /* border-top: #333; */
+}
+
+
+.wrap{
+    width: 430px;
+}
+.wrap img{
+    padding-bottom: 20px;
+}
+.social{
+    padding: 10px 10px;
+}
+.social a{
+    text-decoration: none;
+    width: 200px;
+    font-size: 28px;
+    /* margin: 5px; */
+    padding: 5px;
+}
+.social a li{
+    padding: 0px 50px;
+}
+.footer-widge{
+    font-size: 18px;
+    padding: 5px;
+} 
+.footer-widge ul{
+    list-style: none;
+    padding-top:10px ;
+}
+.footer-widge h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer-widge ul li{
+    list-style: none;
+    padding: 5px ;
+}
+.footer-widge ul li a{
+    text-decoration: none;
+    padding-top: 5px;
+    color: black;
+}
